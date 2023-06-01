@@ -1,0 +1,117 @@
+body{
+	height: 100%;	
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-size:200px;
+	text-align:center; 
+}
+.vsebina{
+	font-size:25px;
+	list-style-type:circle;
+}
+.vsebina li{
+	margin-bottom:10px;
+}
+.navbar_desno {
+	list-style: none;
+	margin:0;
+	padding: 0;
+	display: flex;
+	background-color: #FFE517;
+}
+
+.navbar_desno li {
+	margin-right: 120px;
+	margin-left:50px;
+	font-weight:bold;
+}
+
+.navbar_desno li:last-child {
+	margin-right: 120px;
+	margin-left:50px;
+}
+
+.navbar_desno a {
+	display: block;
+	padding: 10px;
+	color: #333;
+	text-decoration: none;
+	color:#0000BD;
+}
+.footer-vsebina {
+	display: flex;
+	justify-content: center;
+	background-color: #FFE517;
+	padding: 20px;
+	color:#0000BD;
+}
+
+.footer-razdelek {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.footer-razdelek h3 {
+	margin-bottom: 10px;
+}
+
+.footer-razdelek p {
+	margin: 5px 0;
+}
+
+.footer-spodaj {
+	background-color: #0000BD;
+	color: #FFE517;
+	text-align: center;
+	padding: 10px;
+}
+
+.uvod{
+	background-image:url("cgi.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color:transparent;
+}
+.dosezki{
+	background-image:url("pokal.jpg");
+	background-repeat: no-repeat;
+	background-position: center 330px;
+	background-size:260px 260px;
+	background-color:transparent;
+}
+.zgo{
+	background-image:url("urca.jpg");
+	background-repeat: no-repeat;
+	background-position: center 330px;
+	background-size:260px 260px;
+	background-color:transparent;
+}
+.postopek{
+	background-image:url("luc.jpg");
+	background-repeat: no-repeat;
+	background-position: center 330px;
+	background-size:260px 260px;
+	background-color:transparent;
+}
+.pripomocki{
+	background-image:url("orodje.png");
+	background-repeat: no-repeat;
+	background-position: center 355px;
+	background-size:300px 260px;
+	background-color:transparent;
+}
+.odmik{
+	margin-bottom:200px;
+}
+.green{
+	background-image:url("green.jpg");
+	background-repeat: no-repeat;
+	background-position: center 350px;
+	background-size:260px 260px;
+	background-color:transparent;
+}
